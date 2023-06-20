@@ -131,3 +131,14 @@ header{
     height: 550px;
 }
 
+
+.Aurora-title{
+    display: flex;
+}
+.by-aurora{
+    text-decoration: none;
+    color: var(--light-grey);
+    align-self: flex-end;
+}
+
+
