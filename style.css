@@ -145,4 +145,63 @@ header{
     font-size: 3.5rem;
 }
 
+/* Footer*/
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background-color: var(--green) !important;
+}
+
+.footer-text p{
+    font-size: 0.5rem;
+}
+
+
+
+.footer-arrow a:hover {
+    box-shadow: 0 0 1rem var(--contrast-color);
+}
+.footer-arrow a i{
+    font-size: 1rem;
+    color: var(--second-back-ground-color);
+}
+footer i{
+    font-size: 1.5rem;
+}
+
+.texto-footer h5{
+    color: var(--second-back-ground-color) !important;
+    font-size: 1rem;
+}
+
+.texto-footer p a{
+    text-decoration: none !important;
+}
+.texto-footer p a:hover{
+    color: var(--contrast-color) !important;
+}
+
+.github{
+    text-decoration: none;
+    color: var(--second-back-ground-color) !important;
+}
+
+.github:hover{
+    
+    color: var(--contrast-color) !important;
+}
+
+.iconos i{
+    color: var(--back-ground-color) !important;
+}
+
+.correo-electronico-footer{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
 
